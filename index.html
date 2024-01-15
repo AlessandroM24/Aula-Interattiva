@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema prenotazione poltrone</title>
+</head>
+
+<body>
+    <h1>Accensione e spegnimento computer</h1>
+    <p>Fai click su un computer per accenderlo; un ulteriore click per spegnelo</p>
+
+    <label for="righe">Righe:</label>
+    <input type="number" name="righe" id="righe" min="1">
+    <label for="colonne">Colonne:</label>
+    <input type="number" name="colonne" id="colonne" min="1">
+    <button onclick="stampaComputer()">Crea aula</button>
+
+    <br>
+    <br>
+
+    <div id="computer">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
